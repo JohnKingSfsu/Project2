@@ -11,10 +11,10 @@ This is a website representing community using a quote that reminds me of commun
 
 This website was created by using html (hypertext markup language) and css (cascading style sheet). The backgrounds and animations were all created in css using gradients and transformations. The fonts were provided by Google Fonts.
 
-## acknowledgment
+## Acknowledgment
 
 Gradient: https://www.w3schools.com/css/css3_gradients.asp
 
 Centering: https://www.w3schools.com/css/tryit.asp?filename=trycss_align_transform
 
-Shadow: https://www.w3schools.com/cssref/playdemo.php?filename=playcss_text-shadow 
+Shadow: https://www.w3schools.com/cssref/playdemo.php?filename=playcss_text-shadow
