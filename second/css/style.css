@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgb(75, 163, 240), white);
+    background-image: linear-gradient(rgb(240, 96, 96), white);
     min-height: 100vh;
 }
 
@@ -14,19 +14,19 @@ a {
     color: white;
 }
 
-#baby {
+#keep {
     position: absolute;
-    top: 20%;
-    left: 20%;
+    top: 10%;
+    left: 40%;
     font-size: 60px;
     color: white;
     text-shadow: 1px 1px 50px black;
 }
 
-#turn {
+#yeah {
     position: absolute;
-    top: 70%;
-    right: 20%;
+    top: 68%;
+    right: 70%;
     font-size: 60px;
     color: white;
     text-shadow: 1px 1px 50px black;

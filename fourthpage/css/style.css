@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgb(229, 229, 64), white);
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 45px;
+    text-shadow: 1px 1px 50px black;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#good {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    font-size: 60px;
+    color: white;
+    text-shadow: 1px 1px 50px black;
+}
+
+#i {
+    position: absolute;
+    top: 25%;
+    right: 15%;
+    font-size: 60px;
+    color: white;
+    text-shadow: 1px 1px 50px black;
+}
+
+#colde {
+    position: absolute;
+    top: 36%;
+    right: 15%;
+    font-size: 60px;
+    color: white;
+    text-shadow: 1px 1px 50px black;
+}
