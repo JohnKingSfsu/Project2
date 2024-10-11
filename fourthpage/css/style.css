@@ -6,6 +6,7 @@
 
 body {
     background-image: linear-gradient(rgb(229, 229, 64), white);
+    background-attachment: fixed;
     min-height: 100vh;
 }
 
@@ -18,6 +19,12 @@ a {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+p {
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
 }
 
 #good {

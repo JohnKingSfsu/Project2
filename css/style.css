@@ -6,7 +6,14 @@
 
 body {
     background-image: linear-gradient(rgb(75, 163, 240), white);
+    background-attachment: fixed;
     min-height: 100vh;
+}
+
+p {
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
 }
 
 a {
