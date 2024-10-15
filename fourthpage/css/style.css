@@ -10,6 +10,12 @@ body {
     min-height: 100vh;
 }
 
+#flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -22,12 +28,14 @@ a {
 }
 
 p {
+    display: inline-block;
     font-family: "Kalam", cursive;
     font-weight: 300;
     font-style: normal;
 }
 
 #good {
+    display: inline;
     position: absolute;
     top: 10%;
     left: 15%;
@@ -37,8 +45,9 @@ p {
 }
 
 #i {
+    display: inline;
     position: absolute;
-    top: 25%;
+    top: 27%;
     right: 15%;
     font-size: 60px;
     color: white;
@@ -52,4 +61,15 @@ p {
     font-size: 60px;
     color: white;
     text-shadow: 1px 1px 50px black;
+}
+
+
+#container {
+    background-color: blue;
+    transition-duration: 3s;
+    position: fixed;
+    width: 80%;
+    height: 30%;
+    top: 10%;
+    left: 10%;
 }

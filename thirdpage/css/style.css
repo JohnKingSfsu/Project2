@@ -10,21 +10,31 @@ body {
     min-height: 100vh;
 }
 
+#flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 a {
     text-decoration: none;
     color: white;
 }
 
+
 p {
+    display: inline;
     font-family: "Kalam", cursive;
     font-weight: 300;
     font-style: normal;
 }
 
+
 #looking {
+    display: inline-block;
     position: absolute;
     top: 15%;
-    left: 30%;
+    right: 20%;
     font-size: 60px;
     color: white;
     text-shadow: 1px 1px 50px black;
@@ -33,8 +43,18 @@ p {
 #let {
     position: absolute;
     top: 30%;
-    right: 50%;
+    left: 2%;
     font-size: 60px;
     color: white;
     text-shadow: 1px 1px 50px black;
+}
+
+#time {
+    color: rgb(91, 91, 91);
+    display: inline-block;
+    transition-duration: 3s;
+}
+
+#time:hover {
+    transform: rotate(360deg);
 }

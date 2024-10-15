@@ -10,7 +10,14 @@ body {
     min-height: 100vh;
 }
 
+#flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 p {
+    display: inline;
     font-family: "Kalam", cursive;
     font-weight: 300;
     font-style: normal;
@@ -22,6 +29,7 @@ a {
 }
 
 #baby {
+    display: inline-block;
     position: absolute;
     top: 20%;
     left: 20%;
@@ -37,4 +45,14 @@ a {
     font-size: 60px;
     color: white;
     text-shadow: 1px 1px 50px black;
+}
+
+#rock {
+    color: rgb(247, 174, 66);
+    display: inline-block;
+    transition-duration: 3s;
+}
+
+#rock:hover {
+    transform: scale(3);
 }

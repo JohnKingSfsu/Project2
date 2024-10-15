@@ -10,21 +10,29 @@ body {
     min-height: 100vh;
 }
 
+#flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 a {
     text-decoration: none;
     color: white;
 }
 
 p {
+    display: inline;
     font-family: "Kalam", cursive;
     font-weight: 300;
     font-style: normal;
 }
 
 #keep {
+    display: inline-block;
     position: absolute;
     top: 10%;
-    left: 40%;
+    right: 10%;
     font-size: 60px;
     color: white;
     text-shadow: 1px 1px 50px black;
@@ -33,8 +41,51 @@ p {
 #yeah {
     position: absolute;
     top: 68%;
-    right: 65%;
+    left: 17%;
     font-size: 60px;
     color: white;
     text-shadow: 1px 1px 50px black;
 }
+
+#heart {
+    display: inline-block;
+}
+
+#shaped {
+    display: inline-block;
+}
+
+#heartshaped {
+    color: rgb(229, 140, 230);
+    display: inline-block;
+}
+
+#heartshaped:hover > #heart{
+    transform: skew(2deg, 48deg);
+}
+
+#heartshaped:hover > #shaped {
+    transform: skew(-2deg, -48deg);
+}
+
+
+/*
+#heart {
+    display: inline-block;
+    transition-duration: 3s;
+}
+
+
+#heart:hover {
+    transform: skew(20deg, -20deg);
+}
+
+#shaped {
+    display: inline-block;
+    transition-duration: 3s;
+}
+
+#shaped:hover {
+    transform: skew(-20deg, 20deg);
+}
+*/
