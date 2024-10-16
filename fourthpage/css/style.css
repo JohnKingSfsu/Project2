@@ -9,11 +9,12 @@ body {
     background-attachment: fixed;
     min-height: 100vh;
 }
-
 #flex {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: baseline;
+    margin: 20px;
 }
 
 a {
