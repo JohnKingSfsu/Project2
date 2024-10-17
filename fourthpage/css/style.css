@@ -64,13 +64,12 @@ p {
     text-shadow: 1px 1px 50px black;
 }
 
-
-#container {
-    background-color: blue;
+#stay {
+    color: rgb(162, 236, 243);
     transition-duration: 3s;
-    position: fixed;
-    width: 80%;
-    height: 30%;
-    top: 10%;
-    left: 10%;
+    display: inline-block;
+}
+
+#stay:hover {
+    transform: translate(0, -500%);
 }

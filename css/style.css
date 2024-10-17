@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgb(75, 163, 240), white);
+    background-image: linear-gradient(rgb(149, 206, 255), white);
     background-attachment: fixed;
     min-height: 100vh;
 }
@@ -28,6 +28,7 @@ p {
 a {
     text-decoration: none;
     color: white;
+    text-shadow: 1px 1px 50px black;
 }
 
 #nirvanablues {
@@ -40,34 +41,12 @@ a {
     text-shadow: 1px 1px 50px black;
 }
 
-#hover {
-    display: inline-block;
-    position: absolute;
-    margin-top: 50px;
-    left: 20%;
-    top: 20%;
-    font-size: 60px;
-    color: white;
-    text-shadow: 1px 1px 50px black;
-}
-
 #click {
     display: inline-block;
     position: absolute;
-    margin-top: 50px;
-    right: 20%;
-    top: 60%;
+    margin-top: 45px;
+    left: 50%;
+    top: 20%;
     font-size: 60px;
     color: white;
-    text-shadow: 1px 1px 50px black;
-}
-
-#colored {
-    color: red;
-    display: inline-block;
-    transition-duration: 3s;
-}
-
-#colored:hover {
-    opacity: 0;
 }
