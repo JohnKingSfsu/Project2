@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgb(240, 96, 96), white);
+    background-image: linear-gradient(rgb(75, 163, 240), white);
     background-attachment: fixed;
     min-height: 100vh;
 }
@@ -18,11 +18,6 @@ body {
     margin: 20px;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
-
 p {
     display: inline;
     font-family: "Kalam", cursive;
@@ -30,43 +25,36 @@ p {
     font-style: normal;
 }
 
-#keep {
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#baby {
     display: inline-block;
     position: absolute;
-    top: 10%;
-    right: 10%;
+    top: 20%;
+    left: 20%;
     font-size: 60px;
     color: white;
     text-shadow: 1px 1px 50px black;
 }
 
-#yeah {
+#turn {
     position: absolute;
-    top: 68%;
-    left: 17%;
+    top: 70%;
+    right: 20%;
     font-size: 60px;
     color: white;
     text-shadow: 1px 1px 50px black;
 }
 
-#heart {
+#rock {
+    color: rgb(247, 174, 66);
     display: inline-block;
+    transition-duration: 3s;
 }
 
-#shaped {
-    display: inline-block;
+#rock:hover {
+    transform: scale(3);
 }
-
-#heartshaped {
-    color: rgb(229, 140, 230);
-    display: inline-block;
-}
-
-#heartshaped:hover > #heart{
-    transform: skew(2deg, 48deg);
-}
-
-#heartshaped:hover > #shaped {
-    transform: skew(-2deg, -48deg);
-}
-

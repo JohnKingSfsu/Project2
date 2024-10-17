@@ -13,8 +13,12 @@ This website was created by using html (hypertext markup language) and css (casc
 
 ## Acknowledgment
 
+Nirvana Blues: https://open.spotify.com/track/7Kg4EWw7TSiXAczXDQfhSn?autoplay=true
+
 Gradient: https://www.w3schools.com/css/css3_gradients.asp
 
 Centering: https://www.w3schools.com/css/tryit.asp?filename=trycss_align_transform
 
 Shadow: https://www.w3schools.com/cssref/playdemo.php?filename=playcss_text-shadow
+
+Skew: https://stackoverflow.com/questions/8614423/how-to-change-one-element-while-hovering-over-another-with-css

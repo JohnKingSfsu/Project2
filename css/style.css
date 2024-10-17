@@ -30,31 +30,44 @@ a {
     color: white;
 }
 
-#baby {
+#nirvanablues {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin-top: 50px;
+    font-size: 60px;
+    color: white;
+    text-shadow: 1px 1px 50px black;
+}
+
+#hover {
     display: inline-block;
     position: absolute;
-    top: 20%;
+    margin-top: 50px;
     left: 20%;
+    top: 20%;
     font-size: 60px;
     color: white;
     text-shadow: 1px 1px 50px black;
 }
 
-#turn {
+#click {
+    display: inline-block;
     position: absolute;
-    top: 70%;
+    margin-top: 50px;
     right: 20%;
+    top: 60%;
     font-size: 60px;
     color: white;
     text-shadow: 1px 1px 50px black;
 }
 
-#rock {
-    color: rgb(247, 174, 66);
+#colored {
+    color: red;
     display: inline-block;
     transition-duration: 3s;
 }
 
-#rock:hover {
-    transform: scale(3);
+#colored:hover {
+    opacity: 0;
 }
