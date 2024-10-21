@@ -6,6 +6,7 @@
 
 body {
     background-image: linear-gradient(rgb(229, 229, 64), white);
+    /* gradient retrieved from: https://www.w3schools.com/css/css3_gradients.asp */
     background-attachment: fixed;
     min-height: 100vh;
 }
@@ -22,11 +23,14 @@ a {
     color: white;
     font-size: 45px;
     text-shadow: 1px 1px 50px black;
+    /* shadow retrieved from: https://www.w3schools.com/cssref/playdemo.php?filename=playcss_text-shadow */
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/* centering retrieved from https://www.w3schools.com/css/tryit.asp?filename=trycss_align_transform */
+
 
 p {
     display: inline-block;
@@ -43,7 +47,10 @@ p {
     font-size: 60px;
     color: white;
     text-shadow: 1px 1px 50px black;
+    /* shadow retrieved from: https://www.w3schools.com/cssref/playdemo.php?filename=playcss_text-shadow */
 }
+/* centering retrieved from https://www.w3schools.com/css/tryit.asp?filename=trycss_align_transform */
+
 
 #i {
     display: inline;
@@ -53,7 +60,10 @@ p {
     font-size: 60px;
     color: white;
     text-shadow: 1px 1px 50px black;
+    /* shadow retrieved from: https://www.w3schools.com/cssref/playdemo.php?filename=playcss_text-shadow */
 }
+/* centering retrieved from https://www.w3schools.com/css/tryit.asp?filename=trycss_align_transform */
+
 
 #colde {
     position: absolute;
@@ -62,7 +72,10 @@ p {
     font-size: 60px;
     color: white;
     text-shadow: 1px 1px 50px black;
+    /* shadow retrieved from: https://www.w3schools.com/cssref/playdemo.php?filename=playcss_text-shadow */
 }
+/* centering retrieved from https://www.w3schools.com/css/tryit.asp?filename=trycss_align_transform */
+
 
 #stay {
     color: rgb(162, 236, 243);

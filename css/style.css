@@ -6,6 +6,7 @@
 
 body {
     background-image: linear-gradient(rgb(149, 206, 255), white);
+    /* gradient retrieved from: https://www.w3schools.com/css/css3_gradients.asp */
     background-attachment: fixed;
     min-height: 100vh;
 }
@@ -23,6 +24,7 @@ a {
     text-decoration: none;
     color: white;
     text-shadow: 1px 1px 50px black;
+    /* shadow retrieved from: https://www.w3schools.com/cssref/playdemo.php?filename=playcss_text-shadow */
     display: inline;
     font-family: "Kalam", cursive;
     font-weight: 300;
@@ -37,6 +39,9 @@ a {
     font-size: 60px;
     color: white;
     text-shadow: 1px 1px 50px black;
+    /* shadow retrieved from: https://www.w3schools.com/cssref/playdemo.php?filename=playcss_text-shadow */
+
+    
 }
 
 #click {
@@ -45,6 +50,7 @@ a {
     margin-top: 45px;
     left: 50%;
     top: 20%;
+    /* centering retrieved from https://www.w3schools.com/css/tryit.asp?filename=trycss_align_transform */
     font-size: 60px;
     color: white;
 }

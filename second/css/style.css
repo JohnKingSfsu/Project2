@@ -6,6 +6,7 @@
 
 body {
     background-image: linear-gradient(rgb(240, 96, 96), white);
+    /* gradient retrieved from: https://www.w3schools.com/css/css3_gradients.asp */
     background-attachment: fixed;
     min-height: 100vh;
 }
@@ -38,7 +39,10 @@ p {
     font-size: 60px;
     color: white;
     text-shadow: 1px 1px 50px black;
+    /* shadow retrieved from: https://www.w3schools.com/cssref/playdemo.php?filename=playcss_text-shadow */
 }
+/* centering retrieved from https://www.w3schools.com/css/tryit.asp?filename=trycss_align_transform */
+
 
 #yeah {
     position: absolute;
@@ -47,7 +51,10 @@ p {
     font-size: 60px;
     color: white;
     text-shadow: 1px 1px 50px black;
+    /* shadow retrieved from: https://www.w3schools.com/cssref/playdemo.php?filename=playcss_text-shadow */
 }
+/* centering retrieved from https://www.w3schools.com/css/tryit.asp?filename=trycss_align_transform */
+
 
 #heart {
     display: inline-block;
@@ -65,8 +72,10 @@ p {
 #heartshaped:hover > #heart{
     transform: skew(2deg, 48deg);
 }
+/* multiple element skew retrieved from https://stackoverflow.com/questions/8614423/how-to-change-one-element-while-hovering-over-another-with-css */
 
 #heartshaped:hover > #shaped {
     transform: skew(-2deg, -48deg);
 }
+/* multiple element retrieved from https://stackoverflow.com/questions/8614423/how-to-change-one-element-while-hovering-over-another-with-css */
 

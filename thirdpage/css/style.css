@@ -6,6 +6,7 @@
 
 body {
     background-image: linear-gradient(rgb(27, 212, 222), white);
+    /* gradient retrieved from: https://www.w3schools.com/css/css3_gradients.asp */
     background-attachment: fixed;
     min-height: 100vh;
 }
@@ -22,6 +23,7 @@ a {
     text-decoration: none;
     color: white;
     text-shadow: 1px 1px 50px black;
+    /* shadow retrieved from: https://www.w3schools.com/cssref/playdemo.php?filename=playcss_text-shadow */
 }
 
 
@@ -41,7 +43,10 @@ p {
     font-size: 60px;
     color: white;
     text-shadow: 1px 1px 50px black;
+    /* shadow retrieved from: https://www.w3schools.com/cssref/playdemo.php?filename=playcss_text-shadow */
 }
+/* centering retrieved from https://www.w3schools.com/css/tryit.asp?filename=trycss_align_transform */
+
 
 #let {
     position: absolute;
@@ -50,7 +55,10 @@ p {
     font-size: 60px;
     color: white;
     text-shadow: 1px 1px 50px black;
+    /* shadow retrieved from: https://www.w3schools.com/cssref/playdemo.php?filename=playcss_text-shadow */
 }
+/* centering retrieved from https://www.w3schools.com/css/tryit.asp?filename=trycss_align_transform */
+
 
 #time {
     color: rgb(91, 91, 91);

@@ -6,6 +6,7 @@
 
 body {
     background-image: linear-gradient(rgb(75, 163, 240), white);
+    /* gradient retrieved from: https://www.w3schools.com/css/css3_gradients.asp */
     background-attachment: fixed;
     min-height: 100vh;
 }
@@ -29,6 +30,7 @@ a {
     text-decoration: none;
     color: white;
     text-shadow: 1px 1px 50px black;
+    /* shadow retrieved from: https://www.w3schools.com/cssref/playdemo.php?filename=playcss_text-shadow */
 }
 
 #baby {
@@ -41,7 +43,10 @@ a {
     font-size: 60px;
     color: white;
     text-shadow: 1px 1px 50px black;
+    /* shadow retrieved from: https://www.w3schools.com/cssref/playdemo.php?filename=playcss_text-shadow */
 }
+/* centering retrieved from https://www.w3schools.com/css/tryit.asp?filename=trycss_align_transform */
+
 
 #turn {
     position: absolute;
@@ -50,7 +55,10 @@ a {
     font-size: 60px;
     color: white;
     text-shadow: 1px 1px 50px black;
+    /* shadow retrieved from: https://www.w3schools.com/cssref/playdemo.php?filename=playcss_text-shadow */
 }
+ /* centering retrieved from https://www.w3schools.com/css/tryit.asp?filename=trycss_align_transform */
+
 
 #rock {
     color: rgb(247, 174, 66);

@@ -21,4 +21,4 @@ Centering: https://www.w3schools.com/css/tryit.asp?filename=trycss_align_transfo
 
 Shadow: https://www.w3schools.com/cssref/playdemo.php?filename=playcss_text-shadow
 
-Skew: https://stackoverflow.com/questions/8614423/how-to-change-one-element-while-hovering-over-another-with-css
+Multiple Element Skew: https://stackoverflow.com/questions/8614423/how-to-change-one-element-while-hovering-over-another-with-css
