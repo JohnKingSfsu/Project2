@@ -69,3 +69,7 @@ p {
 #time:hover {
     transform: rotate(360deg);
 }
+
+#next:hover {
+    color: grey;
+}

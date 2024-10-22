@@ -18,14 +18,14 @@ body {
     margin: 20px;
 }
 
-a {
+#watch {
     text-decoration: none;
     color: white;
     font-size: 45px;
     text-shadow: 1px 1px 50px black;
     /* shadow retrieved from: https://www.w3schools.com/cssref/playdemo.php?filename=playcss_text-shadow */
     position: absolute;
-    top: 60%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -64,15 +64,16 @@ p {
 }
 /* centering retrieved from https://www.w3schools.com/css/tryit.asp?filename=trycss_align_transform */
 
-
 #colde {
+    display: inline-block;
     position: absolute;
-    top: 36%;
-    right: 15%;
+    top: 40%;
+    right: 10%;
     font-size: 60px;
     color: white;
     text-shadow: 1px 1px 50px black;
     /* shadow retrieved from: https://www.w3schools.com/cssref/playdemo.php?filename=playcss_text-shadow */
+    text-decoration: none;
 }
 /* centering retrieved from https://www.w3schools.com/css/tryit.asp?filename=trycss_align_transform */
 
@@ -85,4 +86,8 @@ p {
 
 #stay:hover {
     transform: translate(0, -500%);
+}
+
+#next:hover {
+    color: grey;
 }

@@ -31,19 +31,6 @@ a {
     font-style: normal;
 }
 
-#nirvanablues {
-    text-align: center;
-    display: inline-block;
-    position: relative;
-    margin-top: 50px;
-    font-size: 60px;
-    color: white;
-    text-shadow: 1px 1px 50px black;
-    /* shadow retrieved from: https://www.w3schools.com/cssref/playdemo.php?filename=playcss_text-shadow */
-
-    
-}
-
 #click {
     display: inline-block;
     position: absolute;
@@ -53,4 +40,8 @@ a {
     /* centering retrieved from https://www.w3schools.com/css/tryit.asp?filename=trycss_align_transform */
     font-size: 60px;
     color: white;
+}
+
+#next:hover {
+    color: grey;
 }

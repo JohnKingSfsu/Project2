@@ -69,3 +69,7 @@ a {
 #rock:hover {
     transform: scale(3) translate(35px, 0);
 }
+
+#next:hover {
+    color: grey;
+}
